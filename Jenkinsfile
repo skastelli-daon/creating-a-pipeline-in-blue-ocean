@@ -9,8 +9,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''npm install
-; echo "=== DONE ==="'''
+        sh 'npm install'
+        sh 'echo "=== DONE ==="'
       }
     }
 
